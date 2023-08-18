@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="container">
+    <header></header>
+    <main>
+        <form action="#" method="get" class="form-pad">
+            <fieldset>
+                <legend>Your address</legend>
+                <div class="flex-input"> 
+                    <label for="First name">First name</label> 
+                    <input type="text" id="First name">
+                </div>
+                
+                <div class="flex-input">
+                    <label for="Last name">Last name</label>
+                    <input type="text" id="Last name">
+                </div>
+                
+                <div class="flex-input">
+                    <label for="Street">Street</label>
+                    <input type="text" id="Street">
+                </div>
+                
+                <div class="flex-input">
+                    <label for="City">City</label>
+                    <input type="text" id="City">
+                </div>
+            </fieldset>    
+            
+            <fieldset>
+                <legend>Additional details</legend>
+                <div class="flex-input">
+                    <label for="Biography">Biography</label>
+                    <textarea id="Biography" cols="20" rows="2"></textarea>
+                </div>
+                
+                <div class="flex-input">
+                    <label for="Image">Image</label>
+                    <input type="file" id="Image">
+                </div>
+                
+                <div class="flex-input">
+                    <label for="Age Group">Age Group</label>
+                    <input type="number" placeholder="0 to 9 Years" id="Age Group">
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Interests</legend>
+                <div class="flex-input">
+                    <label for="Hobbies">Hobbies</label>
+                    <select name="Hobbies" id="Hobbies" multiple>
+                        <option value="Playing soccer">Playing soccer</option>
+                        <option value="Dancing">Dancing</option>
+                        <option value="Gardening">Gardening</option>
+                        <option value="Watching movies">Watching movies</option>
+                    </select>
+                </div>
+                
+                <div class="flex-input">
+                    <label for="Favourite car">Favourite car?</label>
+                    <select name="Favourite car" id="Favourite car">
+                        <option value="Volvo">Volvo</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Audi">Audi</option>
+                    </select>
+                </div>
+                
+                <div class="flex-input">
+                    <label for="Favourite public transport">Favourite public transport?</label>
+                    <select name="Favourite public transport" id="Favourite public transport" multiple>
+                        <option value="Ground">Ground</option>
+                        <option value="Train">Train</option>
+                        <option value="Bus">Bus</option>
+                        <option value="Water">Water</option>
+                    </select>
+                </div>
+            </fieldset>    
+        </form>
+    </main>
+</body>
+</html>
